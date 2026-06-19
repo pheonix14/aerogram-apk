@@ -8,7 +8,8 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
-| **v5.0.0** | Debug | [aerogram-v5.0.0-debug.apk](releases/v5.0.0/aerogram-v5.0.0-debug.apk) |
+| **v5.2.0** | Debug | [aerogram-v5.2.0.apk](releases/v5.2.0/aerogram-v5.2.0.apk) |
+| v5.0.0 | Debug | [aerogram-v5.0.0-debug.apk](releases/v5.0.0/aerogram-v5.0.0-debug.apk) |
 | v4.0.0 | Debug | [aerogram-v4.0.0-debug.apk](releases/v4.0.0/aerogram-v4.0.0-debug.apk) |
 | v3.0.0 | Debug | [aerogram-v3.0.0-debug.apk](releases/v3.0.0/aerogram-v3.0.0-debug.apk) |
 | v2.0.0 | Debug | [aerogram-v2.0.0-debug.apk](releases/v2.0.0/aerogram-v2.0.0-debug.apk) |
@@ -16,6 +17,14 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v5.2.0 — Dedicated Edit Profile Page & Privacy Control Enforcement
+- 👤 **Dedicated Edit Profile Screen** — Replaced the pop-up profile editor dialog with a dedicated, beautiful full-screen profile editor.
+- 🔒 **Privacy Switch** — Added a dedicated switch to toggle profile privacy (Public vs. Private) with detailed descriptions explaining their rules.
+- 🕵️ **Search Visibility Enforcement** — Private profiles are completely hidden from user lists, popular creators carousels, and universal search results (reels, statuses, profiles).
+- 🚫 **Chat Initiation Restricting** — Disallowed starting direct chats with private profiles from the contacts directory.
+- 🛡️ **Message Blocking** — Added warning banner and disabled message inputs in direct chats with private accounts unless they message you first.
+- 🧹 **Cleanups & Version Bump** — Consolidated Profile screen, removed duplicate settings items, and updated build target to v5.2.0.
 
 ### v5.0.0 — Explore Page & Full Settings Panel
 - 🔍 **Explore Page** — Replaced the Status tab with a full-featured Explore page featuring search bar, filter chips (All/Users/Hashtags/Posts), and discovery feed.
