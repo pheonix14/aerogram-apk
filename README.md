@@ -8,7 +8,8 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
-| **v7.0.0** | Debug | [aerogram-v7.0.0.apk](releases/v7.0.0/aerogram-v7.0.0.apk) |
+| **v7.1.0** | Debug | [aerogram-v7.1.0.apk](releases/v7.1.0/aerogram-v7.1.0.apk) |
+| v7.0.0 | Debug | [aerogram-v7.0.0.apk](releases/v7.0.0/aerogram-v7.0.0.apk) |
 | v6.0.0 | Debug | [aerogram-v6.0.0.apk](releases/v6.0.0/aerogram-v6.0.0.apk) |
 | v5.2.0 | Debug | [aerogram-v5.2.0.apk](releases/v5.2.0/aerogram-v5.2.0.apk) |
 | v5.0.0 | Debug | [aerogram-v5.0.0-debug.apk](releases/v5.0.0/aerogram-v5.0.0-debug.apk) |
@@ -19,6 +20,12 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v7.1.0 — Username System & Seed Phrase Recovery
+- 🏷️ **Username System (`@username`)** — Implemented a comprehensive username system where users sign up with a unique, validated username (3-15 characters, lowercase, alphanumeric, and underscores).
+- 🔑 **Seed Phrase Recovery** — Seed phrases are mapped directly to display names and usernames in the `aero_seedphrase` table, restoring user identities fully upon login.
+- 🗄️ **Database v5 Schema Upgrade** — Upgraded database helper to DB version 5, adding username columns to both `aero_user` and `aero_seedphrase` tables.
+- 👤 **UI Integrations** — Integrated username displays (`@username`) across Profile, Chat Details top bar, and Contacts selection lists, and updated Explore Search to support searching by username.
 
 ### v7.0.0 — Notification Center, Database v4 Upgrade & Home Header Integration
 - 🔔 **Notification Center** — Introduced a full-screen Notification Center to view system updates, new follower alerts, messages, and likes.
