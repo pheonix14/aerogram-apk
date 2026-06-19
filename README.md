@@ -8,7 +8,8 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
-| **v8.0.0** | Debug | [aerogram-v8.0.0.apk](releases/v8.0.0/aerogram-v8.0.0.apk) |
+| **v8.1.0** | Debug | [aerogram-v8.1.0.apk](releases/v8.1.0/aerogram-v8.1.0.apk) |
+| v8.0.0 | Debug | [aerogram-v8.0.0.apk](releases/v8.0.0/aerogram-v8.0.0.apk) |
 | v7.1.0 | Debug | [aerogram-v7.1.0.apk](releases/v7.1.0/aerogram-v7.1.0.apk) |
 | v7.0.0 | Debug | [aerogram-v7.0.0.apk](releases/v7.0.0/aerogram-v7.0.0.apk) |
 | v6.0.0 | Debug | [aerogram-v6.0.0.apk](releases/v6.0.0/aerogram-v6.0.0.apk) |
@@ -21,6 +22,11 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v8.1.0 — Automatic Login & Persistence
+- 🔄 **Automatic Login & Session Persistence** — Fixed session management logic so users remain logged in across app restarts and updates.
+- 🎨 **Obsidian Couture Splash Screen** — Implemented a premium, glassmorphic loading screen during startup initialization to ensure a seamless experience.
+- 🛡️ **Authentication Reliability** — Resolved issues that caused user signup to fail under certain conditions.
 
 ### v8.0.0 — Live Supabase Backend & Privacy Protection
 - 🌐 **Live Supabase Backend** — Migrated Aerogram from SQLite/mock data to a live Supabase PostgreSQL backend (`https://suauykvicbnmohanfxfx.supabase.co`).
