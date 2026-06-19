@@ -8,6 +8,7 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
+| **v5.0.0** | Debug | [aerogram-v5.0.0-debug.apk](releases/v5.0.0/aerogram-v5.0.0-debug.apk) |
 | v4.0.0 | Debug | [aerogram-v4.0.0-debug.apk](releases/v4.0.0/aerogram-v4.0.0-debug.apk) |
 | v3.0.0 | Debug | [aerogram-v3.0.0-debug.apk](releases/v3.0.0/aerogram-v3.0.0-debug.apk) |
 | v2.0.0 | Debug | [aerogram-v2.0.0-debug.apk](releases/v2.0.0/aerogram-v2.0.0-debug.apk) |
@@ -15,6 +16,14 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v5.0.0 — Full Settings Panel & Polish
+- 🛠️ **Full Settings Panel** — Replaced popup settings dialog with a dedicated full-screen settings panel organized into categories: Preferences, Security & Privacy, Profile & Customization, and Support.
+- 🔐 **Hardware Keystore Indicator** — Settings panel shows AES-GCM encryption status for the seed phrase with a locked toggle.
+- 🌐 **Inline Privacy Toggle** — Public/Private profile visibility can be toggled directly from the Settings panel's Security section.
+- ✏️ **Edit Profile Access** — Quick-access link to the Edit Profile dialog from within Settings.
+- 🧹 **Compilation Fix** — Resolved missing `User` model import in ProfileScreen for clean builds.
+- 📐 **Category Headers** — Settings are organized with teal-colored category headers for clear visual grouping.
 
 ### v4.0.0 — Profile Customization & Settings Sync
 - 👥 **Followers & Following Counters** — Mapped real-time social metrics directly from the SQLite database to the profile card.
