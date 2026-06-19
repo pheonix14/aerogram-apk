@@ -8,19 +8,20 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
+| v3.0.0 | Debug | [aerogram-v3.0.0-debug.apk](releases/v3.0.0/aerogram-v3.0.0-debug.apk) |
 | v2.0.0 | Debug | [aerogram-v2.0.0-debug.apk](releases/v2.0.0/aerogram-v2.0.0-debug.apk) |
 | v1.1.0 | Debug | [aerogram-v1.1.0-debug.apk](releases/v1.1.0/aerogram-v1.1.0-debug.apk) |
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
 
-### v2.0.0 — Android Keystore AES-GCM Encrypted Security (Wallet Grade)
-- 🔒 **Hardware-Backed Cryptography** — Integrated device-specific Android Keystore System to encrypt local SQLite seed phrase data dynamically.
-- 🛡️ **Hack-Proof Storage** — Plain-text seed phrases are never written to disk, preventing extraction even on rooted devices.
-- 🛠️ **Performance & Stability** — Restricted compilation memory thresholds and optimized caching to prevent compiler daemon OOM crashes.
+### v3.0.0 — Security & Version Upgrades
+- 🔒 **Android Keystore AES-GCM Encrypted Security** — Added device-specific hardware-backed master key encryption to secure SQLite seed phrase data.
+- 🛡️ **Hack-Proof Storage** — Prevented local plain-text private credential writing.
+- 🛠️ **Tag Alignment** — Upgraded releases and Git tag structure to v3.0.0.
 
-### v1.1.0 — Seed Phrase Authentication & SQLite Local Storage
-- 🔐 **Seed Phrase Authentication** — Integrated wallet-style 12-word seed phrase login and account recovery mechanism.
+### v2.0.0 — SQLite Reactive Storage & Wallet Onboarding
+- 🔐 **Seed Phrase Onboarding** — Integrated wallet-style 12-word seed phrase generation, copying, and validation.
 - 📦 **Local SQLite Database** — Persists chats, message histories, status updates, and reels dynamically in SQLite (tables prefixed with `aero_`).
 - 🔄 **Reactive UI State Flow** — Integrated Kotlin StateFlows in all screens for real-time updates upon sending messages, posting status updates, or liking reels.
 - 💬 **Contacts Selector Dialog** — Added contacts selector dialog to start new conversations from seeded contacts.
