@@ -8,7 +8,9 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
-| **v5.2.0** | Debug | [aerogram-v5.2.0.apk](releases/v5.2.0/aerogram-v5.2.0.apk) |
+| **v7.0.0** | Debug | [aerogram-v7.0.0.apk](releases/v7.0.0/aerogram-v7.0.0.apk) |
+| v6.0.0 | Debug | [aerogram-v6.0.0.apk](releases/v6.0.0/aerogram-v6.0.0.apk) |
+| v5.2.0 | Debug | [aerogram-v5.2.0.apk](releases/v5.2.0/aerogram-v5.2.0.apk) |
 | v5.0.0 | Debug | [aerogram-v5.0.0-debug.apk](releases/v5.0.0/aerogram-v5.0.0-debug.apk) |
 | v4.0.0 | Debug | [aerogram-v4.0.0-debug.apk](releases/v4.0.0/aerogram-v4.0.0-debug.apk) |
 | v3.0.0 | Debug | [aerogram-v3.0.0-debug.apk](releases/v3.0.0/aerogram-v3.0.0-debug.apk) |
@@ -17,6 +19,19 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v7.0.0 — Notification Center, Database v4 Upgrade & Home Header Integration
+- 🔔 **Notification Center** — Introduced a full-screen Notification Center to view system updates, new follower alerts, messages, and likes.
+- 💬 **Home Header Integration** — Integrated a styling-matched notification bell icon in the Chats list header with a dynamic red unread dot badge.
+- 🗄️ **Database v4 Upgrade** — Created `aero_notification` SQLite table and seeded initial system, follower, and post like notifications.
+- ⚙️ **Actions & Controls** — Implemented marking notifications as read by tapping, bulk "Mark all as read" actions, and clearing notifications history.
+
+### v6.0.0 — Chat Creation Screen, Message Actions & Reels Removal
+- ✏️ **Chat & Group Creation** — Added full-screen page for starting chats, creating groups, and creating channels via a routing flow instead of popups.
+- 👤 **Followers & Following Selectors** — Easily add followers, following, or random public accounts directly to groups or channels.
+- 🗑️ **Reels Removal** — Completely removed the Reels page and button, leaving a clean discovery-focused Explore page.
+- 💬 **Message Actions** — Implemented deleting messages, deleting whole chats, editing messages, and forwarding/saving messages.
+- 🗄️ **Saved Messages** — Created a dedicated "Saved Messages" chat repository for personal text/media storage.
 
 ### v5.2.0 — Dedicated Edit Profile Page & Privacy Control Enforcement
 - 👤 **Dedicated Edit Profile Screen** — Replaced the pop-up profile editor dialog with a dedicated, beautiful full-screen profile editor.
