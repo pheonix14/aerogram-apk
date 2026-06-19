@@ -8,10 +8,16 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
+| v2.0.0 | Debug | [aerogram-v2.0.0-debug.apk](releases/v2.0.0/aerogram-v2.0.0-debug.apk) |
 | v1.1.0 | Debug | [aerogram-v1.1.0-debug.apk](releases/v1.1.0/aerogram-v1.1.0-debug.apk) |
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v2.0.0 — Android Keystore AES-GCM Encrypted Security (Wallet Grade)
+- 🔒 **Hardware-Backed Cryptography** — Integrated device-specific Android Keystore System to encrypt local SQLite seed phrase data dynamically.
+- 🛡️ **Hack-Proof Storage** — Plain-text seed phrases are never written to disk, preventing extraction even on rooted devices.
+- 🛠️ **Performance & Stability** — Restricted compilation memory thresholds and optimized caching to prevent compiler daemon OOM crashes.
 
 ### v1.1.0 — Seed Phrase Authentication & SQLite Local Storage
 - 🔐 **Seed Phrase Authentication** — Integrated wallet-style 12-word seed phrase login and account recovery mechanism.
