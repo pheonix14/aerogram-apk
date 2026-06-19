@@ -17,13 +17,15 @@ Download the latest AEROGRAM APK builds here.
 
 ## 📝 Changelog
 
-### v5.0.0 — Full Settings Panel & Polish
-- 🛠️ **Full Settings Panel** — Replaced popup settings dialog with a dedicated full-screen settings panel organized into categories: Preferences, Security & Privacy, Profile & Customization, and Support.
-- 🔐 **Hardware Keystore Indicator** — Settings panel shows AES-GCM encryption status for the seed phrase with a locked toggle.
-- 🌐 **Inline Privacy Toggle** — Public/Private profile visibility can be toggled directly from the Settings panel's Security section.
-- ✏️ **Edit Profile Access** — Quick-access link to the Edit Profile dialog from within Settings.
+### v5.0.0 — Explore Page & Full Settings Panel
+- 🔍 **Explore Page** — Replaced the Status tab with a full-featured Explore page featuring search bar, filter chips (All/Users/Hashtags/Posts), and discovery feed.
+- 🏷️ **Trending Hashtags** — Auto-parsed hashtags from reels and statuses displayed as horizontally scrollable trending cards.
+- 👥 **Popular Creators** — Discover users with follower counts in a horizontal carousel with avatar cards.
+- 🎬 **Explore Discoveries Grid** — 2-column gradient reel grid with preview dialogs showing likes, comments, and full reel details.
+- 🔎 **Universal Search** — Search across usernames, bios, hashtags, reel descriptions, and status captions with categorized results.
+- 🛠️ **Full Settings Panel** — Replaced popup settings dialog with a dedicated full-screen settings panel organized into categories.
+- 🔐 **Hardware Keystore Indicator** — Settings panel shows AES-GCM encryption status for the seed phrase.
 - 🧹 **Compilation Fix** — Resolved missing `User` model import in ProfileScreen for clean builds.
-- 📐 **Category Headers** — Settings are organized with teal-colored category headers for clear visual grouping.
 
 ### v4.0.0 — Profile Customization & Settings Sync
 - 👥 **Followers & Following Counters** — Mapped real-time social metrics directly from the SQLite database to the profile card.
