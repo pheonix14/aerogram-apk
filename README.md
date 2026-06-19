@@ -8,7 +8,8 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
-| **v7.1.0** | Debug | [aerogram-v7.1.0.apk](releases/v7.1.0/aerogram-v7.1.0.apk) |
+| **v8.0.0** | Debug | [aerogram-v8.0.0.apk](releases/v8.0.0/aerogram-v8.0.0.apk) |
+| v7.1.0 | Debug | [aerogram-v7.1.0.apk](releases/v7.1.0/aerogram-v7.1.0.apk) |
 | v7.0.0 | Debug | [aerogram-v7.0.0.apk](releases/v7.0.0/aerogram-v7.0.0.apk) |
 | v6.0.0 | Debug | [aerogram-v6.0.0.apk](releases/v6.0.0/aerogram-v6.0.0.apk) |
 | v5.2.0 | Debug | [aerogram-v5.2.0.apk](releases/v5.2.0/aerogram-v5.2.0.apk) |
@@ -20,6 +21,13 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v8.0.0 — Live Supabase Backend & Privacy Protection
+- 🌐 **Live Supabase Backend** — Migrated Aerogram from SQLite/mock data to a live Supabase PostgreSQL backend (`https://suauykvicbnmohanfxfx.supabase.co`).
+- ⚡ **Store-and-Forward Messaging** — Real-time WhatsApp-style message delivery tracking (✓ sent, ✓✓ delivered, ✓✓ blue read) using Supabase Realtime channels.
+- ⏱️ **Self-Destructing Messages** — Time-based and action-based message deletion (None, 24h, 7d, after seen) with background database triggers.
+- 📸 **Screenshot Notification & Warn** — Device-level screenshot detection with auto-notification warning banners inside the chat room.
+- 👥 **Follower Social Graph** — Follow and unfollow other creators directly from Explore and Profile screens, synced with followers count triggers.
 
 ### v7.1.0 — Username System & Seed Phrase Recovery
 - 🏷️ **Username System (`@username`)** — Implemented a comprehensive username system where users sign up with a unique, validated username (3-15 characters, lowercase, alphanumeric, and underscores).
