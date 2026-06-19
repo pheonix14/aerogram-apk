@@ -8,12 +8,20 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
+| v4.0.0 | Debug | [aerogram-v4.0.0-debug.apk](releases/v4.0.0/aerogram-v4.0.0-debug.apk) |
 | v3.0.0 | Debug | [aerogram-v3.0.0-debug.apk](releases/v3.0.0/aerogram-v3.0.0-debug.apk) |
 | v2.0.0 | Debug | [aerogram-v2.0.0-debug.apk](releases/v2.0.0/aerogram-v2.0.0-debug.apk) |
 | v1.1.0 | Debug | [aerogram-v1.1.0-debug.apk](releases/v1.1.0/aerogram-v1.1.0-debug.apk) |
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v4.0.0 — Profile Customization & Settings Sync
+- 👥 **Followers & Following Counters** — Mapped real-time social metrics directly from the SQLite database to the profile card.
+- 🔒 **Public/Private Profile Visibility** — Added a glowing globe/lock badge that represents the user's privacy status in real-time.
+- ⚙️ **Interactive Edit Profile Dialog** — Users can modify their Name, Bio, Avatar Initial letter, and gradient theme color index, instantly updating the local database.
+- 🎛️ **App Settings Dialog** — Custom switches to toggle Notifications and Online Status visibility.
+- 🔄 **StateFlow Syncing** — Reactive updates propagate database profile mutations to the main screen components instantly.
 
 ### v3.0.0 — Security & Version Upgrades
 - 🔒 **Android Keystore AES-GCM Encrypted Security** — Added device-specific hardware-backed master key encryption to secure SQLite seed phrase data.
