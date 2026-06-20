@@ -8,6 +8,8 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
+| v9.3.0 | Debug | [aerogram-v9.3.0.apk](releases/v9.3.0/aerogram-v9.3.0.apk) |
+| v9.2.1 | Debug | [aerogram-v9.2.1.apk](releases/v9.2.1/aerogram-v9.2.1.apk) |
 | **v9.2.0** | Debug | [aerogram-v9.2.0.apk](releases/v9.2.0/aerogram-v9.2.0.apk) |
 | v9.1.0 | Debug | [aerogram-v9.1.0.apk](releases/v9.1.0/aerogram-v9.1.0.apk) |
 | v8.5.0 | Debug | [aerogram-v8.5.0.apk](releases/v8.5.0/aerogram-v8.5.0.apk) |
@@ -25,6 +27,16 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v9.3.0 — Asynchronous Chat Creation & Explore Cleanups
+- ⚡ **Non-Blocking Chat Initialization** — Refactored `startNewChat()` to be a suspended asynchronous function, preventing main thread blocks during direct message creation.
+- 🧹 **Explore Layout Polish** — Removed redundant "Popular Creators" horizontal row for a cleaner, unified single-column discovery experience.
+- 🔄 **Reactive Contact Syncing** — Automatically refreshes registered users list on navigating to the New Chat screen to ensure up-to-date contact lists.
+
+### v9.2.1 — Cache, Chat Requests & FAB
+- 📁 **Profile Cache & Offline Storage** — Implemented offline profile caching and storage synchronization to speed up navigation.
+- 📥 **Chat Requests Tab** — Added a dedicated Chat Requests tab to manage incoming message requests from new contacts.
+- ➕ **Bottom Navigation FAB** — Integrated a center Floating Action Button (FAB) inside the bottom navigation bar for quick access.
 
 ### v9.2.0 — Real-time Sync & Global Contacts Search
 - ⚡ **Instant Real-Time Synchronization** — Added global Supabase Realtime listeners for profiles (`aero_user`), follows (`aero_follow`), reels (`aero_reel`), likes (`aero_like`), comments (`aero_comment`), and notifications (`aero_notification`), allowing immediate updates across clients without app restarts.
