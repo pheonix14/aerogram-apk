@@ -8,7 +8,8 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
-| **v8.1.0** | Debug | [aerogram-v8.1.0.apk](releases/v8.1.0/aerogram-v8.1.0.apk) |
+| **v8.5.0** | Debug | [aerogram-v8.5.0.apk](releases/v8.5.0/aerogram-v8.5.0.apk) |
+| v8.1.0 | Debug | [aerogram-v8.1.0.apk](releases/v8.1.0/aerogram-v8.1.0.apk) |
 | v8.0.0 | Debug | [aerogram-v8.0.0.apk](releases/v8.0.0/aerogram-v8.0.0.apk) |
 | v7.1.0 | Debug | [aerogram-v7.1.0.apk](releases/v7.1.0/aerogram-v7.1.0.apk) |
 | v7.0.0 | Debug | [aerogram-v7.0.0.apk](releases/v7.0.0/aerogram-v7.0.0.apk) |
@@ -22,6 +23,11 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v8.5.0 — Error Handling & Signup Bypass
+- 🛠️ **Detailed Error Logging & Propagation** — Modified the login and signup network routines to bubble up exceptions directly to the UI layer, preventing false "check your internet connection" messages.
+- ⚡ **Auto-Confirm Database Trigger** — Updated the `handle_new_user()` trigger function in `master_schema_rls.sql` to automatically confirm user emails in `auth.users`, bypassing the dashboard email confirmation requirement.
+- 🚀 **Stable Version v8.5.0 Release** — Packaged and tagged the release as v8.5.0.
 
 ### v8.1.0 — Automatic Login & Persistence
 - 🔄 **Automatic Login & Session Persistence** — Fixed session management logic so users remain logged in across app restarts and updates.
