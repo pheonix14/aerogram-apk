@@ -8,7 +8,8 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
-| **v9.1.0** | Debug | [aerogram-v9.1.0.apk](releases/v9.1.0/aerogram-v9.1.0.apk) |
+| **v9.2.0** | Debug | [aerogram-v9.2.0.apk](releases/v9.2.0/aerogram-v9.2.0.apk) |
+| v9.1.0 | Debug | [aerogram-v9.1.0.apk](releases/v9.1.0/aerogram-v9.1.0.apk) |
 | v8.5.0 | Debug | [aerogram-v8.5.0.apk](releases/v8.5.0/aerogram-v8.5.0.apk) |
 | v8.1.0 | Debug | [aerogram-v8.1.0.apk](releases/v8.1.0/aerogram-v8.1.0.apk) |
 | v8.0.0 | Debug | [aerogram-v8.0.0.apk](releases/v8.0.0/aerogram-v8.0.0.apk) |
@@ -24,6 +25,11 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v9.2.0 — Real-time Sync & Global Contacts Search
+- ⚡ **Instant Real-Time Synchronization** — Added global Supabase Realtime listeners for profiles (`aero_user`), follows (`aero_follow`), reels (`aero_reel`), likes (`aero_like`), comments (`aero_comment`), and notifications (`aero_notification`), allowing immediate updates across clients without app restarts.
+- 🔎 **Global Username Contacts Search** — Enhanced the search bar on the New Chat pencil screen to lookup all registered users by username/name when searching, while retaining a clean recent chat contacts view when blank.
+- 👥 **Group & Channel Setup Expansion** — Restructured member selectors in group/channel creation screens to retrieve from all users instead of only recent contacts.
 
 ### v9.1.0 — Connected Storage Feed & Social Interactions
 - 📁 **Connected Cloud Storage** — Added "Connect Storage" to Settings to link Google Drive, OneDrive, Mega, or Dropbox folders/links.
