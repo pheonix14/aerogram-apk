@@ -8,7 +8,8 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
-| **v8.5.0** | Debug | [aerogram-v8.5.0.apk](releases/v8.5.0/aerogram-v8.5.0.apk) |
+| **v9.1.0** | Debug | [aerogram-v9.1.0.apk](releases/v9.1.0/aerogram-v9.1.0.apk) |
+| v8.5.0 | Debug | [aerogram-v8.5.0.apk](releases/v8.5.0/aerogram-v8.5.0.apk) |
 | v8.1.0 | Debug | [aerogram-v8.1.0.apk](releases/v8.1.0/aerogram-v8.1.0.apk) |
 | v8.0.0 | Debug | [aerogram-v8.0.0.apk](releases/v8.0.0/aerogram-v8.0.0.apk) |
 | v7.1.0 | Debug | [aerogram-v7.1.0.apk](releases/v7.1.0/aerogram-v7.1.0.apk) |
@@ -23,6 +24,14 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v9.1.0 — Connected Storage Feed & Social Interactions
+- 📁 **Connected Cloud Storage** — Added "Connect Storage" to Settings to link Google Drive, OneDrive, Mega, or Dropbox folders/links.
+- 📸 **Post Creation from Cloud** — Allowed pasting public folder links or selecting from connected folders with file browser previews.
+- 🔄 **Simulation Sync & Pow** — Simulated progress loading screens for cloud downloads and background cryptographic security algorithms.
+- 💬 **Scrolling Instagram/YouTube-Style Feed** — Redesigned Explore tab's grid discoveries into a premium scrollable vertical feed featuring inline hashtags, comments drawer bottom sheets, and real-time likes syncing.
+- 🔎 **Contact Directory Filtering** — Filtered the New Chat, Create Group, and Create Channel member selectors to show recent chat partners only.
+- ✏️ **Visual Polish** — Lifted ChatsScreen's FAB button for a cleaner layout.
 
 ### v8.5.0 — Error Handling & Signup Bypass
 - 🛠️ **Detailed Error Logging & Propagation** — Modified the login and signup network routines to bubble up exceptions directly to the UI layer, preventing false "check your internet connection" messages.
