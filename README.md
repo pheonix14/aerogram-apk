@@ -8,6 +8,7 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
+| v9.8 | Debug | [aerogram-v9.8.apk](releases/v9.8/aerogram-v9.8.apk) |
 | v9.7.23 | Debug | [aerogram-v9.7.23.apk](releases/v9.7.23/aerogram-v9.7.23.apk) |
 | v9.3.0 | Debug | [aerogram-v9.3.0.apk](releases/v9.3.0/aerogram-v9.3.0.apk) |
 | v9.2.1 | Debug | [aerogram-v9.2.1.apk](releases/v9.2.1/aerogram-v9.2.1.apk) |
@@ -28,6 +29,12 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v9.8 — Instant Load & Dark Theme Launch
+- ⚡ **Instant Launch & Session Caching** — Resolved infinite loading screen issues by caching the logged-in user profile in SharedPreferences on successful authentication. On startup, the cached profile is instantly loaded to transition straight to the main app, while verifying and updating the session asynchronously in the background.
+- 🛡️ **Network Resiliency Timeouts** — Configured short timeouts (3-4 seconds) for all blocking Supabase initialization and user lookup queries, ensuring the app remains responsive and operates in E2EE offline-first local mode if the server is unreachable or slow.
+- 🎨 **Obsidian Couture Startup Theme** — Fixed the light/white screen flash during app boot-up by setting the system application XML theme parent to `Theme.Material.NoActionBar` with a dark window background, status bar, and navigation bar matching the `#0B0B0C` Obsidian Black branding.
+- 🔒 **Android 14+ Screen Capture Permission** — Declared the `android.permission.DETECT_SCREEN_CAPTURE` permission in the manifest to resolve SecurityExceptions on Android 14+ devices when registering callbacks for screenshot/recording warnings.
 
 ### v9.7.23 — Real-Time Message Delivery & Premium Dark Icon
 - ⚡ **Real-Time Syncing & Schema Sync** — Resolved message visibility and real-time delivery failures by safely updating the database schema (adding `room_id`, `status` tracking, and message destruction columns) and configuring Realtime replication.
