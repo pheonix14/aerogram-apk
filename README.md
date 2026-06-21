@@ -8,6 +8,7 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
+| v9.8.3 | Debug | [aerogram-v9.8.3.apk](releases/v9.8.3/aerogram-v9.8.3.apk) |
 | v9.8 | Debug | [aerogram-v9.8.apk](releases/v9.8/aerogram-v9.8.apk) |
 | v9.7.23 | Debug | [aerogram-v9.7.23.apk](releases/v9.7.23/aerogram-v9.7.23.apk) |
 | v9.3.0 | Debug | [aerogram-v9.3.0.apk](releases/v9.3.0/aerogram-v9.3.0.apk) |
@@ -29,6 +30,15 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v9.8.3 — Aurora Visual Overhaul & Communities
+- 🎨 **Aurora Premium Visual Theme** — Implemented high-fidelity shifting-gradient canvas backgrounds matching the premium aesthetic of `AERO.HTML`.
+- ⚙️ **Animation & Refresh Rate Optimization** — Added a "reduce animations" toggle setting for low-end phones and targeted custom display refresh rate requests (up to 270Hz) applied directly to window parameters.
+- 👥 **Discord-Style Communities Sidebar** — Added a responsive vertical server navigation sidebar on the Chats screen to switch between DMs and community server channels.
+- 🎨 **Chat Customization Wallpapers** — Enabled custom, per-chat background themes (solid, neon, animated, or image URLs) and custom gradient sent/received bubble styles.
+- 🛡️ **Block & Restrict Controls** — Integrated Block and Restrict buttons in the chat header dropdown, showing warning banners and disabling chat inputs when blocked.
+- 📸 **Screen Capture & Recording Monitors** — Registered a `ContentObserver` for screenshots and a `DisplayManager` polling loop to monitor virtual recording displays, writing alert messages to the chat history without emojis.
+- ⭕ **Local Status Media Upgrades** — Support recording/capturing local statuses with videos, images, and voice recordings.
 
 ### v9.8 — Instant Load & Dark Theme Launch
 - ⚡ **Instant Launch & Session Caching** — Resolved infinite loading screen issues by caching the logged-in user profile in SharedPreferences on successful authentication. On startup, the cached profile is instantly loaded to transition straight to the main app, while verifying and updating the session asynchronously in the background.
