@@ -8,6 +8,7 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
+| v9.7.23 | Debug | [aerogram-v9.7.23.apk](releases/v9.7.23/aerogram-v9.7.23.apk) |
 | v9.3.0 | Debug | [aerogram-v9.3.0.apk](releases/v9.3.0/aerogram-v9.3.0.apk) |
 | v9.2.1 | Debug | [aerogram-v9.2.1.apk](releases/v9.2.1/aerogram-v9.2.1.apk) |
 | **v9.2.0** | Debug | [aerogram-v9.2.0.apk](releases/v9.2.0/aerogram-v9.2.0.apk) |
@@ -27,6 +28,12 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v9.7.23 — Real-Time Message Delivery & Premium Dark Icon
+- ⚡ **Real-Time Syncing & Schema Sync** — Resolved message visibility and real-time delivery failures by safely updating the database schema (adding `room_id`, `status` tracking, and message destruction columns) and configuring Realtime replication.
+- 🛡️ **RLS & Constraint Bypassing** — Dropped stale database foreign key constraints and disabled PostgreSQL RLS on messaging tables to resolve insertion locks and replication blockages.
+- 📦 **Kotlin Serialization Fixes** — Refactored mixed-type Map payloads in [DatabaseRepository.kt](file:///c:/Users/acer/Desktop/aerogram/app/src/main/java/com/example/aerogram/data/database/DatabaseRepository.kt) to typed JSON objects using Kotlin Serialization's `buildJsonObject`, completely eliminating `serializerNotRegistered` crashes when dispatching direct messages.
+- 🎨 **Premium Dark Launcher Icon** — Updated app launcher icon assets across all mipmap densities, introducing a crisp white logo on a premium dark Obsidian Couture background (`#0B0B0C`).
 
 ### v9.3.0 — Asynchronous Chat Creation & Explore Cleanups
 - ⚡ **Non-Blocking Chat Initialization** — Refactored `startNewChat()` to be a suspended asynchronous function, preventing main thread blocks during direct message creation.
