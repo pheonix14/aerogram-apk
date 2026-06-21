@@ -8,6 +8,7 @@ Download the latest AEROGRAM APK builds here.
 
 | Version | Type | Download |
 |---------|------|----------|
+| v10.0 | Debug | [aerogram-v10.0.apk](releases/v10.0/aerogram-v10.0.apk) |
 | v9.8.3 | Debug | [aerogram-v9.8.3.apk](releases/v9.8.3/aerogram-v9.8.3.apk) |
 | v9.8 | Debug | [aerogram-v9.8.apk](releases/v9.8/aerogram-v9.8.apk) |
 | v9.7.23 | Debug | [aerogram-v9.7.23.apk](releases/v9.7.23/aerogram-v9.7.23.apk) |
@@ -30,6 +31,12 @@ Download the latest AEROGRAM APK builds here.
 | v1.0.0 | Debug | [aerogram-v1.0.0-debug.apk](releases/v1.0.0/aerogram-v1.0.0-debug.apk) |
 
 ## 📝 Changelog
+
+### v10.0 — Aurora HTML Sync & Streaming Fixes
+- 🎨 **Aurora Mockup UI Alignment** — Completely synchronized the design system, colors, gradients, and font families with `AERO.HTML`. Added light/dark mode and online/offline status preference storage locally in SharedPreferences.
+- ⚡ **Google Drive Video Auto-Play & Background Cache** — Implemented immediate Google Drive video streaming by fetching direct URLs and forwarding cookie headers in `VideoView`, allowing instant playback while downloading to the local cache runs concurrently.
+- 💬 **Settings Credit & Version Dialog** — Clicking "About Aerogram" in Settings opens a premium themed dialog detailing version 10.0, code 29, codename Aurora, and credit "Made by pheonix14 GitHub".
+- 🛠️ **Chat Video View Fix** — Resolved snap video crash issue by supporting HTTP web URL streaming natively.
 
 ### v9.8.3 — Aurora Visual Overhaul & Premium Alignments
 - 🎨 **Aurora Premium Visual Theme** — Implemented high-fidelity shifting-gradient canvas backgrounds matching the premium aesthetic of `AERO.HTML`.
