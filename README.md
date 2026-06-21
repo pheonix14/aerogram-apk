@@ -31,10 +31,10 @@ Download the latest AEROGRAM APK builds here.
 
 ## 📝 Changelog
 
-### v9.8.3 — Aurora Visual Overhaul & Communities
+### v9.8.3 — Aurora Visual Overhaul & Premium Alignments
 - 🎨 **Aurora Premium Visual Theme** — Implemented high-fidelity shifting-gradient canvas backgrounds matching the premium aesthetic of `AERO.HTML`.
 - ⚙️ **Animation & Refresh Rate Optimization** — Added a "reduce animations" toggle setting for low-end phones and targeted custom display refresh rate requests (up to 270Hz) applied directly to window parameters.
-- 👥 **Discord-Style Communities Sidebar** — Added a responsive vertical server navigation sidebar on the Chats screen to switch between DMs and community server channels.
+- 📐 **Layout Alignment with AERO.HTML** — Restored the clean single-pane dashboard, removing all Discord communities sidebar/servers UI, rendering a custom gradient title ("Aurora") and welcome subtitle matching the HTML mockup 100%. Added a dashed status creation bubble ("Signal") on the Active Nodes row.
 - 🎨 **Chat Customization Wallpapers** — Enabled custom, per-chat background themes (solid, neon, animated, or image URLs) and custom gradient sent/received bubble styles.
 - 🛡️ **Block & Restrict Controls** — Integrated Block and Restrict buttons in the chat header dropdown, showing warning banners and disabling chat inputs when blocked.
 - 📸 **Screen Capture & Recording Monitors** — Registered a `ContentObserver` for screenshots and a `DisplayManager` polling loop to monitor virtual recording displays, writing alert messages to the chat history without emojis.
